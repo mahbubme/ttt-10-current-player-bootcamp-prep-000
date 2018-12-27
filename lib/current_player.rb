@@ -3,6 +3,8 @@ def turn_count( board )
   board.each do | player |
     if player == "X" || "O"
       counter += 1
+    else 
+      // do nothing
     end
   end
   return counter
