@@ -1,5 +1,6 @@
 def turn_count( board )
-  board.each { | player | }
+  counter = 0
+  board.each { | player | player ==  }
 end
 def current_player( board )
   turn_count
