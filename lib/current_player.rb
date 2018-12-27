@@ -1,7 +1,7 @@
 def turn_count( board )
   counter = 0
   board.each do | player |
-    if player == ''
+    if player == "X" || 
   end
   return counter
 end
